@@ -1,0 +1,28 @@
+CoreShop\Component\Address\Model\State:
+  type: mappedSuperclass
+  table: coreshop_state
+  fields:
+    id:
+      type: integer
+      column: id
+      id: true
+      generator:
+        strategy: AUTO
+    name:
+      type: string
+      column: name
+    isoCode:
+      type: string
+      column: isoCode
+      length: 4
+      nullable: true
+    active:
+      column: active
+      type: boolean
+  manyToOne:
+    country:
+      targetEntity: CoreShop\Component\Address\Model\CountryInterface
+      joinColumn:
+        name: countryId
+        referencedColumnName: id
+        nullable: true
