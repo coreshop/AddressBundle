@@ -15,15 +15,15 @@ import { serviceIds } from '@pimcore/studio-ui-bundle/app'
 import { type IconLibrary } from '@pimcore/studio-ui-bundle/modules/icon-library'
 
 // @ts-ignore
-import addressIcon from '../assets/address.svg?react'
+import addressIcon from '../../assets/address.svg?react'
 // @ts-ignore
-import addressIdentifierIcon from '../assets/address_identifier.svg?react'
+import addressIdentifierIcon from '../../assets/address_identifier.svg?react'
 // @ts-ignore
-import countriesIcon from '../assets/countries.svg?react'
+import countriesIcon from '../../assets/countries.svg?react'
 // @ts-ignore
-import stateIcon from '../assets/state.svg?react'
+import stateIcon from '../../assets/state.svg?react'
 // @ts-ignore
-import zonesIcon from '../assets/zones.svg?react'
+import zonesIcon from '../../assets/zones.svg?react'
 
 export const AddressBundleIconModule: AbstractModule = {
   onInit(): void {
