@@ -1,6 +1,23 @@
+/**
+ * CoreShop AddressBundle - Country Select Field (without Form.Item)
+ *
+ * Pure Select component for use in FormBuilder.
+ * For standalone use with Form.Item, use CountrySelect instead.
+ *
+ * This source file is available under the terms of the
+ * CoreShop Commercial License (CCL)
+ * Full copyright and license information is available in
+ * LICENSE.md which is distributed with this source code.
+ *
+ * @copyright  Copyright (c) CoreShop GmbH (https://www.coreshop.com)
+ * @license    CoreShop Commercial License (CCL)
+ */
+
 import React from 'react'
-import { Form, Select } from 'antd'
+import { Select } from 'antd'
+import type { SelectProps } from 'antd'
 import { useTranslation } from 'react-i18next'
+import { DroppableEntity } from '@coreshop/resource/src/entities/components/dnd/DroppableEntity'
 import { countryApi } from '../modules/countries/api'
 
 type Option = { value: number, label: string }
@@ -46,29 +63,12 @@ export const clearCountryCache = () => {
   loadPromise = null
 }
 
-export interface CountrySelectProps {
-  name?: string
-  label?: string
-  labelKey?: string
-  placeholder?: string
-  disabled?: boolean
-  allowClear?: boolean
-  size?: 'small' | 'middle' | 'large'
-  className?: string
-  style?: React.CSSProperties
-}
-
-export const CountrySelect: React.FC<CountrySelectProps> = ({
-  name = 'country',
-  label,
-  labelKey,
-  placeholder,
-  disabled,
-  allowClear,
-  size,
-  className,
-  style,
-}) => {
+/**
+ * CountrySelectField - Pure Select without Form.Item
+ *
+ * For use in FormBuilder where DynamicForm provides the Form.Item wrapper.
+ */
+export const CountrySelectField: React.FC<SelectProps> = (props) => {
   const [options, setOptions] = React.useState<Option[]>(cachedOptions || [])
   const [loading, setLoading] = React.useState(!cachedOptions)
   const { t } = useTranslation()
@@ -87,24 +87,25 @@ export const CountrySelect: React.FC<CountrySelectProps> = ({
     })()
   }, [])
 
-  const computedLabel = label ?? (labelKey ? t(labelKey) : t('coreshop_country', { defaultValue: 'Country' }))
-  const computedPlaceholder = placeholder ?? t('coreshop.ui.select', { defaultValue: 'Select' })
-
   return (
-    <Form.Item label={ computedLabel } name={ name }>
+    <DroppableEntity
+      accept='coreshop:country'
+      isValidData={(info) => typeof info?.data?.id === 'number'}
+      onDrop={(info) => {
+        if (props.onChange && info?.data?.id) {
+          const event = { target: { value: info.data.id } } as any
+          props.onChange(info.data.id, event)
+        }
+      }}
+    >
       <Select
-        loading={ loading }
-        options={ options }
-        placeholder={ computedPlaceholder }
-        disabled={ disabled }
-        allowClear={ allowClear }
-        size={ size }
+        {...props}
+        loading={loading}
+        options={options}
+        placeholder={props.placeholder ?? t('coreshop.ui.select', { defaultValue: 'Select' })}
         showSearch
-        className={ className }
-        style={ style }
-        optionFilterProp='label'
+        optionFilterProp="label"
       />
-    </Form.Item>
+    </DroppableEntity>
   )
 }
-
