@@ -20,16 +20,19 @@
       "api": ""
     },
     "globalName": "coreshopaddress",
-    "pluginVersion": "2.8.0",
-    "publicPath": "/bundles/coreshopaddress/studio/1d80d8deaa651c268cbfc8d84306085a/"
+    "pluginVersion": "2.9.0",
+    "publicPath": "/bundles/coreshopaddress/studio/0ab8a79029d2d1771706023ff3e49d0b/"
   },
   "shared": [
     {
-      "id": "coreshopaddress:@ant-design/colors",
-      "name": "@ant-design/colors",
-      "version": "7.2.1",
       "singleton": true,
       "requiredVersion": "^7.2.1",
+      "shareScope": "default",
+      "eager": false,
+      "strictVersion": false,
+      "name": "@ant-design/colors",
+      "version": "7.2.1",
+      "id": "coreshopaddress:@ant-design/colors",
       "assets": {
         "js": {
           "async": [],
@@ -42,14 +45,19 @@
           "sync": []
         }
       },
+      "usedIn": [],
+      "usedExports": [],
       "fallback": ""
     },
     {
-      "id": "coreshopaddress:@ant-design/icons",
-      "name": "@ant-design/icons",
-      "version": "5.6.1",
       "singleton": true,
       "requiredVersion": "^5.6.1",
+      "shareScope": "default",
+      "eager": false,
+      "strictVersion": false,
+      "name": "@ant-design/icons",
+      "version": "5.6.1",
+      "id": "coreshopaddress:@ant-design/icons",
       "assets": {
         "js": {
           "async": [],
@@ -62,14 +70,19 @@
           "sync": []
         }
       },
+      "usedIn": [],
+      "usedExports": [],
       "fallback": ""
     },
     {
-      "id": "coreshopaddress:@coreshop/studio-form",
-      "name": "@coreshop/studio-form",
-      "version": "1.0.0",
       "singleton": true,
       "requiredVersion": "^1.0.0",
+      "shareScope": "default",
+      "eager": false,
+      "strictVersion": false,
+      "name": "@coreshop/studio-form",
+      "version": "1.0.0",
+      "id": "coreshopaddress:@coreshop/studio-form",
       "assets": {
         "js": {
           "async": [],
@@ -83,14 +96,21 @@
           "sync": []
         }
       },
+      "usedIn": [
+        "."
+      ],
+      "usedExports": [],
       "fallback": ""
     },
     {
-      "id": "coreshopaddress:@emotion/react",
-      "name": "@emotion/react",
-      "version": "11.14.0",
       "singleton": true,
       "requiredVersion": "^11.14.0",
+      "shareScope": "default",
+      "eager": false,
+      "strictVersion": false,
+      "name": "@emotion/react",
+      "version": "11.14.0",
+      "id": "coreshopaddress:@emotion/react",
       "assets": {
         "js": {
           "async": [],
@@ -104,14 +124,19 @@
           "sync": []
         }
       },
+      "usedIn": [],
+      "usedExports": [],
       "fallback": ""
     },
     {
-      "id": "coreshopaddress:antd-style",
-      "name": "antd-style",
-      "version": "3.7.1",
       "singleton": true,
       "requiredVersion": "^3.7.1",
+      "shareScope": "default",
+      "eager": false,
+      "strictVersion": false,
+      "name": "antd-style",
+      "version": "3.7.1",
+      "id": "coreshopaddress:antd-style",
       "assets": {
         "js": {
           "async": [],
@@ -124,14 +149,21 @@
           "sync": []
         }
       },
+      "usedIn": [
+        "."
+      ],
+      "usedExports": [],
       "fallback": ""
     },
     {
-      "id": "coreshopaddress:antd",
-      "name": "antd",
-      "version": "5.29.1",
       "singleton": true,
       "requiredVersion": "^5.29.1",
+      "shareScope": "default",
+      "eager": false,
+      "strictVersion": false,
+      "name": "antd",
+      "version": "5.29.1",
+      "id": "coreshopaddress:antd",
       "assets": {
         "js": {
           "async": [],
@@ -144,14 +176,21 @@
           "sync": []
         }
       },
+      "usedIn": [
+        "."
+      ],
+      "usedExports": [],
       "fallback": ""
     },
     {
-      "id": "coreshopaddress:classnames",
-      "name": "classnames",
-      "version": "2.5.1",
       "singleton": true,
       "requiredVersion": "^2.5.1",
+      "shareScope": "default",
+      "eager": false,
+      "strictVersion": false,
+      "name": "classnames",
+      "version": "2.5.1",
+      "id": "coreshopaddress:classnames",
       "assets": {
         "js": {
           "async": [],
@@ -164,14 +203,19 @@
           "sync": []
         }
       },
+      "usedIn": [],
+      "usedExports": [],
       "fallback": ""
     },
     {
-      "id": "coreshopaddress:dayjs",
-      "name": "dayjs",
-      "version": "1.11.19",
       "singleton": true,
       "requiredVersion": "^1.11.19",
+      "shareScope": "default",
+      "eager": false,
+      "strictVersion": false,
+      "name": "dayjs",
+      "version": "1.11.19",
+      "id": "coreshopaddress:dayjs",
       "assets": {
         "js": {
           "async": [],
@@ -184,14 +228,19 @@
           "sync": []
         }
       },
+      "usedIn": [],
+      "usedExports": [],
       "fallback": ""
     },
     {
-      "id": "coreshopaddress:react-dom",
-      "name": "react-dom",
-      "version": "18.3.1",
       "singleton": true,
       "requiredVersion": "^18.3.1",
+      "shareScope": "default",
+      "eager": false,
+      "strictVersion": false,
+      "name": "react-dom",
+      "version": "18.3.1",
+      "id": "coreshopaddress:react-dom",
       "assets": {
         "js": {
           "async": [],
@@ -204,14 +253,19 @@
           "sync": []
         }
       },
+      "usedIn": [],
+      "usedExports": [],
       "fallback": ""
     },
     {
-      "id": "coreshopaddress:react-i18next",
-      "name": "react-i18next",
-      "version": "14.1.3",
       "singleton": true,
       "requiredVersion": "^14.1.3",
+      "shareScope": "default",
+      "eager": false,
+      "strictVersion": false,
+      "name": "react-i18next",
+      "version": "14.1.3",
+      "id": "coreshopaddress:react-i18next",
       "assets": {
         "js": {
           "async": [],
@@ -224,14 +278,21 @@
           "sync": []
         }
       },
+      "usedIn": [
+        "."
+      ],
+      "usedExports": [],
       "fallback": ""
     },
     {
-      "id": "coreshopaddress:react/jsx-runtime",
-      "name": "react/jsx-runtime",
-      "version": "18.3.1",
       "singleton": true,
       "requiredVersion": "^18.3.1",
+      "shareScope": "default",
+      "eager": false,
+      "strictVersion": false,
+      "name": "react/jsx-runtime",
+      "version": "18.3.1",
+      "id": "coreshopaddress:react/jsx-runtime",
       "assets": {
         "js": {
           "async": [],
@@ -245,14 +306,21 @@
           "sync": []
         }
       },
+      "usedIn": [
+        "."
+      ],
+      "usedExports": [],
       "fallback": ""
     },
     {
-      "id": "coreshopaddress:react",
-      "name": "react",
-      "version": "18.3.1",
       "singleton": true,
       "requiredVersion": "^18.3.1",
+      "shareScope": "default",
+      "eager": false,
+      "strictVersion": false,
+      "name": "react",
+      "version": "18.3.1",
+      "id": "coreshopaddress:react",
       "assets": {
         "js": {
           "async": [],
@@ -265,45 +333,89 @@
           "sync": []
         }
       },
+      "usedIn": [
+        "."
+      ],
+      "usedExports": [],
       "fallback": ""
     }
   ],
   "remotes": [
     {
+      "alias": "@pimcore/studio-ui-bundle",
+      "consumingFederationContainerName": "coreshopaddress",
       "federationContainerName": "promise new Promise(resolve => {\n      const studioUIBundleRemoteUrl = window.StudioUIBundleRemoteUrl\n      const script = document.createElement('script')\n\n      let hasScript = false;\n\n      document.querySelectorAll('script').forEach((el) => {\n        const elPathname = el.src.replace(/https?:\\/\\/[^/]+/, '')\n        const studioUIBundleRemoteUrlPathname = studioUIBundleRemoteUrl.replace(/https?:\\/\\/[^/]+/, '')\n\n        if (elPathname === studioUIBundleRemoteUrlPathname) {\n          hasScript = true;\n          return;\n        }\n      })\n\n      if (hasScript) {\n        resolve({\n          get: (request) => window['pimcore_studio_ui_bundle'].get(request),\n          init: (...arg) => {\n            try {\n              return window['pimcore_studio_ui_bundle'].init(...arg)\n            } catch(e) {\n              console.log('remote container already initialized')\n            }\n          }\n        })\n        return\n      }\n\n      script.src = studioUIBundleRemoteUrl\n      script.onload = () => {\n        const proxy = {\n          get: (request) => window['pimcore_studio_ui_bundle'].get(request),\n          init: (...arg) => {\n            try {\n              return window['pimcore_studio_ui_bundle'].init(...arg)\n            } catch(e) {\n              console.log('remote container already initialized')\n            }\n          }\n        }\n        resolve(proxy)\n      }\n      document.head.appendChild(script);\n    })\n    ",
       "moduleName": ".",
-      "alias": "@pimcore/studio-ui-bundle",
-      "entry": "*"
+      "usedIn": [
+        "src/main.ts + 34 modules",
+        ".../../../ResourceBundle/Resources/assets/pimcore-studio/src/entities/extensions.tsx",
+        ".../../../ResourceBundle/Resources/assets/pimcore-studio/src/entities/save-decorators.ts",
+        ".../../../StudioFormBundle/Resources/assets/pimcore-studio/src/schema-adapter/useFormSchema.ts"
+      ],
+      "version": "*"
     },
     {
+      "alias": "@pimcore/studio-ui-bundle",
+      "consumingFederationContainerName": "coreshopaddress",
       "federationContainerName": "promise new Promise(resolve => {\n      const studioUIBundleRemoteUrl = window.StudioUIBundleRemoteUrl\n      const script = document.createElement('script')\n\n      let hasScript = false;\n\n      document.querySelectorAll('script').forEach((el) => {\n        const elPathname = el.src.replace(/https?:\\/\\/[^/]+/, '')\n        const studioUIBundleRemoteUrlPathname = studioUIBundleRemoteUrl.replace(/https?:\\/\\/[^/]+/, '')\n\n        if (elPathname === studioUIBundleRemoteUrlPathname) {\n          hasScript = true;\n          return;\n        }\n      })\n\n      if (hasScript) {\n        resolve({\n          get: (request) => window['pimcore_studio_ui_bundle'].get(request),\n          init: (...arg) => {\n            try {\n              return window['pimcore_studio_ui_bundle'].init(...arg)\n            } catch(e) {\n              console.log('remote container already initialized')\n            }\n          }\n        })\n        return\n      }\n\n      script.src = studioUIBundleRemoteUrl\n      script.onload = () => {\n        const proxy = {\n          get: (request) => window['pimcore_studio_ui_bundle'].get(request),\n          init: (...arg) => {\n            try {\n              return window['pimcore_studio_ui_bundle'].init(...arg)\n            } catch(e) {\n              console.log('remote container already initialized')\n            }\n          }\n        }\n        resolve(proxy)\n      }\n      document.head.appendChild(script);\n    })\n    ",
       "moduleName": "app",
-      "alias": "@pimcore/studio-ui-bundle",
-      "entry": "*"
+      "usedIn": [
+        "src/main.ts + 34 modules"
+      ],
+      "version": "*"
     },
     {
+      "alias": "@pimcore/studio-ui-bundle",
+      "consumingFederationContainerName": "coreshopaddress",
       "federationContainerName": "promise new Promise(resolve => {\n      const studioUIBundleRemoteUrl = window.StudioUIBundleRemoteUrl\n      const script = document.createElement('script')\n\n      let hasScript = false;\n\n      document.querySelectorAll('script').forEach((el) => {\n        const elPathname = el.src.replace(/https?:\\/\\/[^/]+/, '')\n        const studioUIBundleRemoteUrlPathname = studioUIBundleRemoteUrl.replace(/https?:\\/\\/[^/]+/, '')\n\n        if (elPathname === studioUIBundleRemoteUrlPathname) {\n          hasScript = true;\n          return;\n        }\n      })\n\n      if (hasScript) {\n        resolve({\n          get: (request) => window['pimcore_studio_ui_bundle'].get(request),\n          init: (...arg) => {\n            try {\n              return window['pimcore_studio_ui_bundle'].init(...arg)\n            } catch(e) {\n              console.log('remote container already initialized')\n            }\n          }\n        })\n        return\n      }\n\n      script.src = studioUIBundleRemoteUrl\n      script.onload = () => {\n        const proxy = {\n          get: (request) => window['pimcore_studio_ui_bundle'].get(request),\n          init: (...arg) => {\n            try {\n              return window['pimcore_studio_ui_bundle'].init(...arg)\n            } catch(e) {\n              console.log('remote container already initialized')\n            }\n          }\n        }\n        resolve(proxy)\n      }\n      document.head.appendChild(script);\n    })\n    ",
       "moduleName": "components",
-      "alias": "@pimcore/studio-ui-bundle",
-      "entry": "*"
+      "usedIn": [
+        "src/main.ts + 34 modules",
+        ".../../../ResourceBundle/Resources/assets/pimcore-studio/src/entities/components/EntityList.tsx + 1 modules",
+        ".../../../ResourceBundle/Resources/assets/pimcore-studio/src/entities/components/EntityManager.tsx",
+        ".../../../ResourceBundle/Resources/assets/pimcore-studio/src/entities/components/EntitySplitManager.tsx",
+        ".../../../ResourceBundle/Resources/assets/pimcore-studio/src/entities/components/dnd/DroppableEntity.tsx"
+      ],
+      "version": "*"
     },
     {
+      "alias": "@pimcore/studio-ui-bundle",
+      "consumingFederationContainerName": "coreshopaddress",
       "federationContainerName": "promise new Promise(resolve => {\n      const studioUIBundleRemoteUrl = window.StudioUIBundleRemoteUrl\n      const script = document.createElement('script')\n\n      let hasScript = false;\n\n      document.querySelectorAll('script').forEach((el) => {\n        const elPathname = el.src.replace(/https?:\\/\\/[^/]+/, '')\n        const studioUIBundleRemoteUrlPathname = studioUIBundleRemoteUrl.replace(/https?:\\/\\/[^/]+/, '')\n\n        if (elPathname === studioUIBundleRemoteUrlPathname) {\n          hasScript = true;\n          return;\n        }\n      })\n\n      if (hasScript) {\n        resolve({\n          get: (request) => window['pimcore_studio_ui_bundle'].get(request),\n          init: (...arg) => {\n            try {\n              return window['pimcore_studio_ui_bundle'].init(...arg)\n            } catch(e) {\n              console.log('remote container already initialized')\n            }\n          }\n        })\n        return\n      }\n\n      script.src = studioUIBundleRemoteUrl\n      script.onload = () => {\n        const proxy = {\n          get: (request) => window['pimcore_studio_ui_bundle'].get(request),\n          init: (...arg) => {\n            try {\n              return window['pimcore_studio_ui_bundle'].init(...arg)\n            } catch(e) {\n              console.log('remote container already initialized')\n            }\n          }\n        }\n        resolve(proxy)\n      }\n      document.head.appendChild(script);\n    })\n    ",
       "moduleName": "modules/element",
-      "alias": "@pimcore/studio-ui-bundle",
-      "entry": "*"
+      "usedIn": [
+        "src/main.ts + 34 modules",
+        ".../../../ResourceBundle/Resources/assets/pimcore-studio/src/dynamic-types/DynamicTypeObjectDataCoreShopMultiSelect.tsx",
+        ".../../../ResourceBundle/Resources/assets/pimcore-studio/src/dynamic-types/DynamicTypeObjectDataCoreShopSelect.tsx"
+      ],
+      "version": "*"
     },
     {
+      "alias": "@pimcore/studio-ui-bundle",
+      "consumingFederationContainerName": "coreshopaddress",
       "federationContainerName": "promise new Promise(resolve => {\n      const studioUIBundleRemoteUrl = window.StudioUIBundleRemoteUrl\n      const script = document.createElement('script')\n\n      let hasScript = false;\n\n      document.querySelectorAll('script').forEach((el) => {\n        const elPathname = el.src.replace(/https?:\\/\\/[^/]+/, '')\n        const studioUIBundleRemoteUrlPathname = studioUIBundleRemoteUrl.replace(/https?:\\/\\/[^/]+/, '')\n\n        if (elPathname === studioUIBundleRemoteUrlPathname) {\n          hasScript = true;\n          return;\n        }\n      })\n\n      if (hasScript) {\n        resolve({\n          get: (request) => window['pimcore_studio_ui_bundle'].get(request),\n          init: (...arg) => {\n            try {\n              return window['pimcore_studio_ui_bundle'].init(...arg)\n            } catch(e) {\n              console.log('remote container already initialized')\n            }\n          }\n        })\n        return\n      }\n\n      script.src = studioUIBundleRemoteUrl\n      script.onload = () => {\n        const proxy = {\n          get: (request) => window['pimcore_studio_ui_bundle'].get(request),\n          init: (...arg) => {\n            try {\n              return window['pimcore_studio_ui_bundle'].init(...arg)\n            } catch(e) {\n              console.log('remote container already initialized')\n            }\n          }\n        }\n        resolve(proxy)\n      }\n      document.head.appendChild(script);\n    })\n    ",
       "moduleName": "modules/app",
-      "alias": "@pimcore/studio-ui-bundle",
-      "entry": "*"
+      "usedIn": [
+        "src/main.ts + 34 modules",
+        ".../../../ResourceBundle/Resources/assets/pimcore-studio/src/utils/error-handling.ts"
+      ],
+      "version": "*"
     }
   ],
   "exposes": [
     {
+      "path": ".",
       "id": "coreshopaddress:.",
       "name": ".",
+      "requires": [
+        "@coreshop/studio-form",
+        "react/jsx-runtime",
+        "react",
+        "antd",
+        "react-i18next",
+        "antd-style"
+      ],
+      "file": "src/main.ts",
       "assets": {
         "js": {
           "sync": [
@@ -321,8 +433,7 @@
           "sync": [],
           "async": []
         }
-      },
-      "path": "."
+      }
     }
   ]
 }
